@@ -29,30 +29,5 @@ Ce dataset contient des transactions réelles, y compris des transactions fraudu
     cd fraud-detection-two-levels
     ```
 
-2. Installe les dépendances requises :
-    ```bash
-    pip install -r requirements.txt
-    ```
 
-## Utilisation
 
-1. Prépare le dataset (télécharge-le à partir du lien ci-dessus et place-le dans le répertoire `data/`).
-2. Exécute le script pour entraîner et évaluer les modèles :
-    ```bash
-    python fraud_detection.py
-    ```
-
-## Fichiers
-
-- `fraud_detection.py`: Script principal pour l'entraînement et la prédiction avec la régression logistique et le clustering K-Means.
-- `requirements.txt`: Liste des dépendances requises pour le projet.
-- `data/`: Répertoire pour stocker le dataset.
-
-## Licence
-
-Ce projet est sous licence MIT - voir le fichier [LICENSE](LICENSE) pour plus de détails.
-
-## Remerciements
-
-- Le dataset a été fourni par le [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/credit+card+fraud).
-- Merci à la communauté open-source pour les contributions qui rendent l'apprentissage automatique plus facile !
